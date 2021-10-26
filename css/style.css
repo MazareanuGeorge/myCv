@@ -4,68 +4,63 @@ body {
     background: rgb(240, 239, 239);
     font-family: "Poppins", sans-serif;
   }
-  
+
   h1 {
     margin: 0;
     font-weight: 400;
   }
-  
+
   h2 {
     margin: 0;
     font-weight: 400;
     display: inline-block;
   }
-  
+
   .box {
     background: #fff;
-    width: 50rem;
+    width: 70rem;
     padding: 3rem;
     margin: 1rem auto;
-    border-radius: 0.5rem;
+    border-radius: 0.9rem;
   }
-  
+
   .header {
     display: grid;
     grid-template-columns: 40% 60%;
   }
-  
+
   .headerLeft {
     display: grid;
     justify-items: center;
     align-items: center;
     font-size: 2rem;
   }
-  
-  .firstName {
-    font-weight: 400;
-    margin: 0;
-  }
-  .lastName {
-    font-weight: 200;
-    margin: 0;
-  }
-  
   .headerRight {
     width: 100%;
     display: grid;
     justify-items: end;
   }
-  
-  .headerRight p {
-    display: inline-block;
-  }
-  
-  .grey {
+  .blue {
     background: rgb(100, 133, 133);
-    color: #fff;
-    padding: 0.7rem;
-    border-radius: 0.3rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
   }
-  
-  .icon {
-    color: rgb(223, 223, 223);
+  .iconInfo {
+    color: rgb(0, 0, 0);
     font-size: 1.5rem;
     margin-right: 0.5rem;
+  }
+  .icon {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  .shadow{
+box-shadow: 0 4px 2px -2px gray;
+  }
+  .profile-pic{
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+padding : 0.1rem;
   }
   table {
     border: 2px solid #000;
